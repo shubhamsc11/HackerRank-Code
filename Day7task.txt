@@ -1,0 +1,9 @@
+#!/bin/python
+
+import sys
+
+
+n = int(input().strip())
+arr = (input().strip().split(' '))
+print (' '.join(arr[::-1]))
+
