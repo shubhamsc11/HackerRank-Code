@@ -1,0 +1,17 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+def maxConsecutive1(num):
+    num = bin(num)
+    num = num[2:]
+    print (max(map(len, num.split('0'))))
+   
+if __name__ == '__main__':
+    num = int(input())
+    maxConsecutive1(num)
